@@ -1,0 +1,21 @@
+{
+    "pipeline_name": "FMCG_ETL_And_Quality_Pipeline",
+    "execution_time": "2026-08-12 06:51:05",
+    "checks": {
+        "null_timestamp_check": {
+            "total_records": 6758125,
+            "null_records": 67526,
+            "null_rate_percent": 1.0,
+            "status": "PASSED"
+        },
+        "foreign_key_integrity_check": {
+            "orphan_product_records": 0,
+            "status": "PASSED"
+        }
+    },
+    "status": "SUCCESS",
+    "data_mart_export": {
+        "records_exported": 55,
+        "export_file_path": "data_marts/monthly_category_summary.csv"
+    }
+}
